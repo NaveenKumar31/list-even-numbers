@@ -1,0 +1,10 @@
+i=0;
+    list=[];
+    while(i<n):
+        if(start%2==0):
+            list.append(start);
+            start+=2;
+            i+=1
+            continue;
+        start+=1;
+    return list;
